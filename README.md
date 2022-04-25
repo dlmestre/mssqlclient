@@ -2,7 +2,7 @@
 
 ## Configuration
 
-Configuration should be placed in an YAML configuration file
+Configuration should go into a YAML file
 
 Config:
 ```yaml
@@ -15,6 +15,8 @@ database: database_name
 ## Usage
 
 ```bash
-yamsqlscli --format json --query "select * from table_name" --plain true --config_file config.yml > data.json
+yamsqlscli --format json --query "select * from table_name" --plain true \ 
+--config_file config.yml > data.json
+
 
 ```
