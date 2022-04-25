@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Docker/Dockerfile
+    command: tail -f
+    cpu_count: 1
+    mem_limit: 1g

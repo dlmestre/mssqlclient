@@ -1,0 +1,17 @@
+*.log
+**/*.log
+*.pyc
+.DS_Store
+**/.DS_Store
+build
+dist
+mssqlcli.egg-info
+.cache
+.coverage
+htmlcov
+.tox
+__pycache__
+.eggs*
+venv*
+target/
+.idea
