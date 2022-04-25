@@ -3,9 +3,9 @@ from mssqlcli import __version__
 
 
 setup(
-    name='mssqlclient',
+    name='yamsqlscli',
     version=__version__,
-    description=('Python Cliente for Microsoft SQL Server'),
+    description=('Yet Another Microsoft SQL Server Client'),
     packages=['mssqlcli'],
     package_dirs={
         'mssqlcli': 'mssqlcli'
@@ -16,7 +16,7 @@ setup(
     ],
     classifiers=[
     'Development Status :: 4 - Beta',
-    'Intended Audience :: System Administrators',
+    'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 2',
@@ -29,7 +29,7 @@ setup(
 ],
     entry_points={
     'console_scripts': [
-        'mssqlclient=main:main',
+        'yamsqlscli=main:main',
     ],
 },
 )
