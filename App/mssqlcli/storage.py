@@ -8,7 +8,7 @@ class Storage:
     def query(config, query) -> list:
         conn = pymssql.connect(
         config.server,
-        config.get_username(),
+        config.username,
         config.password,
         config.database,
         **Storage._kwargs(config)
