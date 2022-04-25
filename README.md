@@ -1,2 +1,2 @@
-### MS SQL Server client
-# mssqlclient
+### Yet Another Microsoft SQL Server Client
+
